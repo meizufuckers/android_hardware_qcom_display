@@ -1,0 +1,13 @@
+cc_library_shared {
+    name: "libdisplayconfig.qti",
+    vendor_available: true,
+    shared_libs: [
+        "libhidlbase",
+        "libhidltransport",
+        "libutils",
+        "vendor.display.config@1.0",
+        "android.hidl.base@1.0"
+    ],
+    header_libs: ["libhardware_headers"],
+    srcs: ["DisplayConfig.cpp"],
+}
