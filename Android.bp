@@ -1,6 +1,7 @@
 cc_defaults {
     name: "display_defaults",
     cflags: [
+        "-DDEBUG_CALC_FPS",
         "-Wno-missing-field-initializers",
         "-Wconversion",
         "-Wall",
