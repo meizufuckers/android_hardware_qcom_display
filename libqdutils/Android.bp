@@ -12,6 +12,7 @@ cc_library_shared {
         "-Wno-sign-conversion",
     ],
     srcs: [
+        "profiler.cpp",
         "qd_utils.cpp",
         "display_config.cpp",
     ],
